@@ -6,6 +6,7 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  position: relative;
 }
 .index {
     display: flex;
@@ -21,7 +22,30 @@ body {
   font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-  .footer {
+.footer-index {
+margin-top: 95px !important;
+padding: 18px;
+width: 100%;
+background-color: #41BEE8;
+color: white;
+text-align: center;
+margin-left: -10px !important;
+font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.footer-list {
+margin-top: 350px !important;
+padding: 18px;
+width: 100%;
+background-color: #41BEE8;
+color: white;
+text-align: center;
+margin-left: -10px !important;
+font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+
+  .footer-calendar {
   position: sticky;
   padding: 18px;
   left: 0;
@@ -30,10 +54,34 @@ body {
   background-color: #41BEE8;
   color: white;
   text-align: center;
-  background-size: cover;
-  background-attachment: fixed;
+  margin-left: -10px !important;
   font-family: 'Alegreya Sans SC', sans-serif;
 }
+
+.footer-fourteenth {
+margin-top: 240px !important;
+padding: 18px;
+width: 100%;
+background-color: #41BEE8;
+color: white;
+text-align: center;
+margin-left: -10px !important;
+font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.footer-chore {
+position: sticky;
+padding: 18px;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #41BEE8;
+color: white;
+text-align: center;
+margin-left: -10px !important;
+font-family: 'Alegreya Sans SC', sans-serif;
+}
+
 
 .footer button {
     /*display: flex;*/
@@ -114,7 +162,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 20px;
-  
+
 }
 
 input {
@@ -362,7 +410,7 @@ th {
     font-family: 'Dosis', sans-serif;
     color: #41BEE8;
 }
-    
+
 form {
     font-family: 'Alegreya Sans SC', sans-serif;
 }
@@ -377,16 +425,14 @@ h {
 }
 
 .fourteenth-body {
-    text-align: center; 
+    text-align: center;
     justify-content: center;
     align-items: center;
 }
 
 .cards {
-    text-align: center; 
+    text-align: center;
     justify-content:center;
     margin-left:25%;
-    
+
 }
-
-
