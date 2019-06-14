@@ -1,0 +1,392 @@
+/*index css*/
+
+body {
+  background-image: url("https://img.freepik.com/free-photo/natural-white-marble-texture-skin-tile-wallpaper-luxurious-background_24076-297.jpg?size=626&ext=jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.index {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+  padding: 0px;
+  text-align: center;
+  background: #41BEE8;
+  color: white;
+  font-size: 20px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+  .footer {
+  position: sticky;
+  padding: 18px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #41BEE8;
+  color: white;
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.footer button {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.header-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+}
+.header-buttons{
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+}
+
+#list-button {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: #688D99;
+    margin-right: 70px;
+    margin-left: 160px;
+    border-radius: 20px;
+}
+
+#calendar-button {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: #688D99;
+    margin-right: 100px;
+    margin-left: 160px;
+    border-radius: 20px;
+}
+
+#chore-button {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    color: #688D99;
+    margin-right: 80px;
+    margin-left: 185px;
+    border-radius: 20px;
+}
+
+.index-image {
+    display:flex;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+/*list css*/
+
+.to-do {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  column-count: 3;
+  justify-content: center;
+  padding: 50px;
+}
+
+.user-input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  
+}
+
+input {
+  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
+}
+
+section {
+  font-size: 25px;
+  font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-align: center;
+}
+
+
+.list-1 {
+  border: solid 3px;
+  border-color: grey;
+}
+
+.list-2 {
+  border: solid 3px;
+  border-color: grey;
+}
+
+.list-3 {
+  border: solid 3px;
+  border-color: grey;
+}
+
+.submit-button1{
+  height: 30px;
+  width: 300px;
+  background-color: #41BEE8;
+}
+
+.submit-button2{
+  height: 30px;
+  width: 300px;
+  background-color: #41BEE8;
+}
+
+.submit-button3{
+  height: 30px;
+  width: 300px;
+  background-color: #41BEE8;
+}
+
+article {
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+/*calendar css*/
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  font-family: 'Dosis', sans-serif;
+ background-color : #41BEE8;
+  text-align: center;
+  padding: 60px;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.8%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days button {
+  list-style-type: none;
+  display: inline-block;
+  width: 13%;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size:12px;
+  color: #777;
+  margin-left:12px;
+  justify-content: space-around;
+
+}
+/* Highlight the "current" day */
+.days .active {
+  padding: 5px;
+  background: #41BEE8;
+  color: white !important
+}
+.day1{
+    margin-right:10px;
+    /*margin-left: 200px;*/
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 0px;
+}
+
+.day2 .day9 .day16 .day23 .day30
+{
+    margin-left:10px;
+}
+@media screen and (max-width: 720px) {
+  .weekdays li, .days button {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+/*fourteenth css*/
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+h4, h2 {
+font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.event-submit {
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*chore css*/
+
+.chore-heading {
+    font-size: 40px;
+}
+
+#table-1 {
+    font-family: 'Dosis', sans-serif;
+}
+
+#table-2 {
+    font-family: 'Dosis', sans-serif;
+}
+
+#table-3 {
+    font-family: 'Dosis', sans-serif;
+}
+
+th {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.chore-list {
+    font-family: 'Dosis', sans-serif;
+    color: #41BEE8;
+}
+
+.family-person {
+    font-family: 'Dosis', sans-serif;
+    color: #41BEE8;
+}
+    
+form {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.difficulty {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+
+h {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.fourteenth-body {
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    text-align: center; 
+    justify-content:center;
+    margin-left:25%;
+    
+}
+
+

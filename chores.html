@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>SmartLife | Chores</title>
+        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Antic+Slab|Dosis|Luckiest+Guy&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1 class="chore-heading">Chore Chart</h1>
+        <form>
+            <h3>Family Member:</h3>
+            <input type="text" class="family"><br><br>
+            <!--<button class="family-submit">Submit</button><br><br>-->
+            <section class= "family-member"></section>
+            <h3>Chore:</h3>
+            <input type="text" class="chore"><br><br>
+            <h3>Difficulty:</h3>
+            <div id = "level">
+            <input type="radio" name = "level" class="difficulty" value="easy" checked> Easy<br><br>
+            <input type="radio" name = "level" class="difficulty" value="medium"> Medium<br><br>
+            <input type="radio" name = "level" class="difficulty" value="hard"> Hard <br><br>
+            </div>
+            <input type="submit" class="chore-submit"><br><br>
+            </form>
+            <section class="chore-difficulty"></section>
+            <section class="family-member"></section>
+        <h2>Easy Chores</h2>
+        <table style="width:100%" class="table1">
+        <tr>
+            <th>Chore </th>
+            <th>Family Member</th> 
+        </tr>
+        </table>
+        <h2>Medium Chores</h2>
+        <table style="width:100%" class="table2">
+            <tr>
+                <th>Chore </th>
+                <th>Family Member</th> 
+            </tr>
+        </table>
+        <h2>Hard Chores</h2>
+        <table style="width:100%" class="table3">
+        <tr>
+            <th>Chore </th>
+            <th>Family Member</th> 
+        </tr>
+        </table>
+        
+        <div class="footer">
+            <button><a href="index.html">Home</a></button>
+            <button><a href="list.html">Shopping List, Errands, and Reminders</a></button>
+            <button><a href="calendar.html">Calendar</a></button>
+            <button><a href="chores.html">Chore List</a></button>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./code.js" type="text/javascript" charset="utf-8"></script>   
+    </body>
+</html>

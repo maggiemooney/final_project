@@ -1,0 +1,52 @@
+{
+  "projectId": "1Z_ZopZXCNWCxivAt2TFISlM2OiSRRtgZ",
+  "htmlFiles": [
+    {
+      "fileId": "1mlLXc-uPnjcr1shmBtZHsRdMI7gWlOj4",
+      "contentType": "text/html",
+      "name": "index.html",
+      "path": "1Z_ZopZXCNWCxivAt2TFISlM2OiSRRtgZ"
+    },
+    {
+      "fileId": "1epE0v-KU3cw-mTpMX1K2Vtpt5zkTJFra",
+      "contentType": "text/html",
+      "name": "list.html",
+      "path": "1Z_ZopZXCNWCxivAt2TFISlM2OiSRRtgZ"
+    },
+    {
+      "fileId": "1xFBc2ahA_6PF5BJrr0H_SffiDn1AVzYr",
+      "contentType": "text/html",
+      "name": "calendar.html",
+      "path": "1Z_ZopZXCNWCxivAt2TFISlM2OiSRRtgZ"
+    },
+    {
+      "fileId": "1SZqAbwOmmc3BtUim3gMuOeMW1MCc9aqx",
+      "contentType": "text/html",
+      "name": "chores.html",
+      "path": "1Z_ZopZXCNWCxivAt2TFISlM2OiSRRtgZ",
+      "description": "This HTML file has been created with Editey"
+    },
+    {
+      "fileId": "10R75QuDSHu2bzfW_H_rRMuQHS9CQT9lx",
+      "contentType": "text/html",
+      "name": "fourteenth.html",
+      "path": "1Z_ZopZXCNWCxivAt2TFISlM2OiSRRtgZ"
+    }
+  ],
+  "cssFiles": [
+    {
+      "fileId": "1UdI4y2R2BRprY5Frzk6pqhWhJJm_PyxH",
+      "contentType": "text/css",
+      "name": "style.css",
+      "path": "1Z_ZopZXCNWCxivAt2TFISlM2OiSRRtgZ"
+    }
+  ],
+  "javascriptFiles": [
+    {
+      "fileId": "1dzCTuVJMPef3bEM51nbHxshMKZPjbifC",
+      "contentType": "text/javascript",
+      "name": "code.js",
+      "path": "1Z_ZopZXCNWCxivAt2TFISlM2OiSRRtgZ"
+    }
+  ]
+}
